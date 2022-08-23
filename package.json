@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "packageManager": "pnpm@7.9.0",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
@@ -14,11 +15,13 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@unocss/webpack": "0.45.12",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "unocss": "^0.45.12",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
